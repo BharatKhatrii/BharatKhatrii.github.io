@@ -6,7 +6,7 @@
 
 body {
   background-color: #0d5b69fe;
-  font-family: monospace;
+  font-family: sans-serif;
   color: white;
   cursor: default;
 }
@@ -164,18 +164,6 @@ main {
   flex-direction: column;
 }
 
-#localtime{
-  background-color: rgb(10, 34, 42);
-  padding: 3px 10px;
-  border-radius: 9px;
-  font-size: 1.7rem;
-}
-
-#icon{
-  letter-spacing: 0.1rem;
-  margin: 0px 20px;
-}
-
 #grid-item-2 {
   flex-direction: row;
   padding-top: 2px;
@@ -186,6 +174,13 @@ main {
   justify-content: space-between;
 }
 
+#localtime{
+  background-color: rgb(10, 34, 42);
+  padding: 3px 10px;
+  border-radius: 9px;
+  font-size: 1.7rem;
+}
+
 #item-2 {
   display: flex;
   justify-content: space-around;
@@ -193,6 +188,11 @@ main {
 
 #item-2 div {
   margin: 0px 4px;
+}
+
+#icon{
+  letter-spacing: 0.1rem;
+  margin: 0px 20px;
 }
 
 #item-3 {
@@ -340,7 +340,7 @@ footer {
 
   .grid-box-1 {
     margin: 1.5% 0%;
-    height: 144vh;
+    height: 142vh;
   }
 
   .grid-box-2 {
