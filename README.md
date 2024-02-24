@@ -14,7 +14,7 @@ TheSkyCast is a weather forecasting project designed to provide accurate and up-
 - CSS
 - JavaScript
 
-##Installation
+## Installation
 - bharatkhatrii.github.io
 
 ## Usage
