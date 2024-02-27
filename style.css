@@ -3,14 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   background-color: #0d5b69fe;
   font-family: sans-serif;
-  color: white;
+  color: #fff;
   cursor: default;
 }
-
 nav {
   background-color: #d7f9ff66;
   display: flex;
@@ -20,56 +18,47 @@ nav {
   margin: 30px 14px 31px 14px;
   border-radius: 31px;
   height: 9vh;
-  /* position: sticky;
-  top: 0px; */
 }
-
 .nav-left {
   display: flex;
   align-items: center;
   margin-left: 4px;
 }
-
 .nav-left img {
   width: 3.3rem;
   height: 2.9rem;
   border-radius: 16px;
 }
-
 .title {
   overflow: hidden;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 1.4rem;
   letter-spacing: 1px;
-  color: black;
+  color: #000;
   padding: 12px;
   cursor: default;
 }
-
 .title:hover {
   transform: scale(1.2, 1);
   transition: transform 0.2s ease-in-out;
 }
-
 .nav-center {
   display: flex;
   width: 30vw;
   height: 5vh;
   margin-left: 3vw;
 }
-
 input[type="text"] {
   background-color: #0d5b69fe;
-  border: 0px;
+  border: 0;
   border-radius: 7px;
   outline: none;
-  color: white;
+  color: #fff;
   text-align: center;
   font-size: medium;
   width: 28vw;
   height: 5vh;
 }
-
 input[type="text"]::placeholder {
   color: rgba(255, 255, 255, 0.753);
   text-align: center;
@@ -77,13 +66,11 @@ input[type="text"]::placeholder {
   margin: 4px;
   text-overflow: ellipsis;
 }
-
 input:hover {
-  border: 2px solid white;
+  border: 2px solid #fff;
   border-radius: 16px;
   outline: none;
 }
-
 .nav-center img {
   background-color: #0d5b69fe;
   position: relative;
@@ -92,35 +79,22 @@ input:hover {
   border-radius: 0.5rem;
   margin: 0.2rem;
 }
-
-.nav-right {
-}
-
 #clock {
   text-align: right;
   font-size: 2rem;
   color: #183b4bfe;
   letter-spacing: 2px;
   text-shadow: 3px 1px 11px;
-  font-weight: bold;
+  font-weight: 700;
 }
-
-main {
-}
-
 .grid-container {
-  /* display: grid;
-  grid-template-columns: auto; */
   margin: 14px;
-  /* grid-gap: 6%; */
 }
-
 .grid-box {
   background-color: #caf7ff2e;
   font-size: 12px;
   box-shadow: 8px 8px 6px rgba(0, 0, 0, 0.234);
 }
-
 .grid-box-1 {
   display: grid;
   grid-template-columns: auto;
@@ -133,13 +107,11 @@ main {
   margin: 1.5% 8%;
   grid-gap: 16px;
 }
-
 .grid-box-2 {
   border-radius: 7px;
   margin: 39px;
   height: 30vh;
 }
-
 .grid-box-2 > iframe {
   border-radius: 7px;
   width: 100%;
@@ -147,7 +119,6 @@ main {
   border: none;
   outline: none;
 }
-
 .grid-items {
   display: flex;
   justify-content: space-around;
@@ -155,232 +126,190 @@ main {
   width: auto;
   background-color: rgb(20 61 64 / 54%);
   border-radius: 24px;
-  margin: 0px 12px;
+  margin: 0 12px;
   padding: 1% 4% 0% 4%;
   font-size: 1.3rem;
 }
-
 #grid-item-1 {
   flex-direction: column;
 }
-
 #grid-item-2 {
   flex-direction: row;
   padding-top: 2px;
 }
-
 #item-1 {
   display: flex;
   justify-content: space-between;
 }
-
-#localtime{
+#localtime {
   background-color: rgb(10, 34, 42);
   padding: 3px 10px;
   border-radius: 9px;
   font-size: 1.7rem;
 }
-
 #item-2 {
   display: flex;
   justify-content: space-around;
 }
-
 #item-2 div {
-  margin: 0px 4px;
+  margin: 0 4px;
 }
-
-#icon{
+#icon {
   letter-spacing: 0.1rem;
-  margin: 0px 20px;
+  margin: 0 20px;
 }
-
 #item-3 {
   display: flex;
   justify-content: flex-start;
   font-size: 0.9rem;
 }
-
 #feelslike_c {
   font-size: 1.1rem;
   color: #020e13fe;
-  font-weight: bold;
+  font-weight: 700;
 }
-
 #item-4 {
   display: flex;
   justify-content: center;
 }
-
 #item-5 {
   display: flex;
   justify-content: space-around;
   font-size: 1.4rem;
   margin: 9px;
 }
-
 #item-6 {
   display: flex;
   justify-content: center;
   font-size: 1rem;
 }
-
 #item-6 > a {
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 700;
   padding: 8px;
-  background-color: white;
+  background-color: #fff;
   color: rgb(10, 34, 42);
   border-radius: 8px;
 }
-
 #item-6 > a:hover {
   background-color: rgb(10, 34, 42);
-  color: white;
+  color: #fff;
   border-radius: 8px;
 }
-
 .flex {
   display: flex;
 }
-
 .column {
   flex-direction: column;
 }
-
 .h-center {
   justify-content: center;
 }
-
 .future-days {
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
 }
-
 .future-days span {
   display: flex;
   justify-content: center;
 }
-
 footer {
   background-color: #051c21c9;
   display: block;
   padding: 14px;
   height: 7.4rem;
-  color: white;
+  color: #fff;
   text-align: center;
   position: relative;
   bottom: 0;
   width: 100%;
 }
-
 #contact {
-  margin: 15px 16px 38px 0px;
+  margin: 15px 16px 38px 0;
   display: flex;
   justify-content: center;
 }
-
 #contact a {
-  color: white;
+  color: #fff;
   padding: 3px 5px 3px 4px;
-  margin: 0px 18px;
+  margin: 0 18px;
 }
-
 #contact a > i {
   font-size: 1.4rem;
   position: absolute;
   transition: 0.2s ease-out;
 }
-
 #contact a > i:hover {
   transform: scale(1.9);
   transition: transform 0.2s ease-in-out;
 }
-
 #copyright {
-  font-weight: bold;
+  font-weight: 700;
 }
-
 #copyright_name {
   letter-spacing: 2px;
 }
-
 @media screen and (max-width: 678px) {
   nav {
     height: 8vh;
     flex-wrap: nowrap;
   }
-
   .nav-left img {
     width: 2.7rem;
     height: 2.6rem;
     border-radius: 16px;
   }
-
   .title {
     width: 55%;
   }
-
   .nav-center {
-    margin: 0px 14px;
+    margin: 0 14px;
   }
   .nav-center input[type="text"]::placeholder {
     text-align: left;
     padding-left: 8px;
   }
-
   .nav-center img {
     display: none;
   }
-
   .nav-right {
     display: none;
   }
-
   .grid-box-1 {
     margin: 1.5% 0%;
     height: 142vh;
   }
-
   .grid-box-2 {
     display: none;
   }
-
   .grid-items {
     margin: 0;
     padding: 2% 4%;
   }
-
   #grid-item-1 {
     height: 98vh;
   }
-
   #grid-item-2 {
     flex-direction: column;
     height: 34vh;
   }
-
   #item-5 {
     flex-direction: column;
   }
-
   #item-5 div {
     flex-direction: row;
-    margin: 16px 0px;
+    margin: 16px 0;
     justify-content: space-between;
   }
-
   #item-6 a {
     padding: 3px 9px;
   }
-
   .future-days {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
   }
-
   .future-days span {
     display: block;
   }
